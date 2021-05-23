@@ -1,0 +1,15 @@
+[package]
+name = "mongotest"
+version = "0.1.0"
+authors = ["Trevor Green <Trevor@mailagc.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+
+[dependencies.mongodb]
+version = "2.0.0-beta"
+default-features = false
+features = ["async-std-runtime"]
