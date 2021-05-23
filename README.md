@@ -4,6 +4,7 @@ Attempt to use mongodb rust driver in a webassemly project.
 Setup, 
 
 Cargo Build
+
 WASM-PACK build
 
 Failed!
